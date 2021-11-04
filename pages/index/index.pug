@@ -1,0 +1,26 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title= "Путешествия по России"
+    link(rel="stylesheet", href="../../../vendor/normalize.css")
+    link(rel="stylesheet", href="./index.css")
+  body
+    .page
+      header.header
+        include ../../images/logo/logo.svg
+        .header__lang-links
+          a(href="#", class="header__lang-link header__lang-link_status_enabled")= "Ru"
+          a(href="#", class="header__lang-link header__lang-link_status_disabled")= "En"
+      section.lead
+        h1.lead__title Путешествия по России
+        p.lead__subtitle Настоящая страна не в выпусках новостей, а здесь.
+        div.lead__image
+          picture: img(src="../../../images/lead/pic.jpg", alt="Фотография в поезде")
+          p.lead__caption ваша полка — верхняя
+      section.intro
+      section.photo-grid
+      section.places
+      section.cover
+      footer.footer

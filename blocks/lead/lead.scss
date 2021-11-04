@@ -1,0 +1,56 @@
+.lead {
+  margin: 56px 148px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  &__title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    width: 720px;
+    height: 200px;
+    margin: 0 auto 64px;
+  }
+  &__subtitle {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    width: 640px;
+    height: 72px;
+    margin: 0 auto 32px;
+  }
+  &__image {
+    margin: 0 auto;
+  }
+  &__caption {
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 8px auto 0 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .lead {
+    margin-top: 48px;
+    &__title {
+      margin-bottom: 32px;
+    }
+    &__subtitle {
+      margin-bottom: 56px;
+    }
+    &__image {
+      width: 928px;
+      height: 580px;
+    }
+  }
+}
