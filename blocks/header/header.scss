@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  justify-content: space-between;
   padding: 28px 48px 0;
   font-style: normal;
   font-weight: normal;
@@ -11,14 +10,12 @@
     align-self: center;
     width: 176px;
     height: 52px;
-  }
-  &__lang-links {
-    display: flex;
-    align-self: flex-end;
+    margin: 0 auto 0 0;
   }
   &__lang-link {
     color: #FFFFFF;
-    &:first-child {
+    margin-top: 18px;
+    &:first-of-type {
       margin-right: 18px;
     }
     &_status_disabled {
@@ -44,6 +41,9 @@
     &__logo {
       width: 142px;
       height: 42px;
+    }
+    &__lang-link {
+      margin-top: 14px;
     }
   }
 }
