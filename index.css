@@ -1,4 +1,4 @@
-@import './fonts/Inter/inter.css';
+@import '../../fonts/Inter/inter.css';
 .page {
   min-width: 320px;
   font-family: "Inter", sans-serif;
@@ -16,7 +16,8 @@
   text-align: right;
 }
 .header__logo {
-  align-self: center;
+  object-fit: cover;
+  object-position: center;
   width: 176px;
   height: 52px;
   margin: 0 auto 0 0;
@@ -84,7 +85,7 @@
   margin: 0 auto 64px;
 }
 .lead__image {
-  background-image: url("./images/lead/pic.jpg");
+  background-image: url("../../../images/lead/pic.jpg");
   background-size: cover;
   width: calc(100vw - 2*148px);
   height: calc(62.5vw - 2*148px);
@@ -364,7 +365,7 @@
   padding: 92px 48px;
 }
 .cover__background {
-  background-image: url(./images/cover/pic.jpg);
+  background-image: url(../../../images/cover/pic.jpg);
   background-size: cover;
   width: calc(100vw - 2*48px);
   height: 62.5vw;
