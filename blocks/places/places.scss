@@ -113,9 +113,7 @@
     &__title {
       font-size: 32px;
       line-height: 35px;
-    }
-    &__website {
-      padding-top: calc(32px - 25px);
+      padding: 0 16px;
     }
     &__image {
       padding-top: calc(32px - 25px);
@@ -123,9 +121,13 @@
       grid-row: 3/4;
     }
     &__paragraph {
+      padding: 0 16px;
       &:first-of-type {
         padding-top: calc(32px - 25px);
       }
     }
+  }
+  .website {
+    padding: calc(32px - 25px) 16px 0;
   }
 }
