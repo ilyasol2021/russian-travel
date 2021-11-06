@@ -1,0 +1,27 @@
+.cover {
+  color: #fff;
+  padding: 92px 48px;
+}
+
+.cover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 92px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding: 90px 0 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding: 66px 0 64px;
+  }
+}

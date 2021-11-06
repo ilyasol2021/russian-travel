@@ -1,0 +1,16 @@
+.cover__background {
+  background-image: url(../../../images/cover/pic.jpg);
+  background-size: cover;
+  width: calc(100vw - 2*48px);
+  height: 62.5vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    width: 100vw;
+  }
+}

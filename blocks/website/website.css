@@ -1,0 +1,11 @@
+.website {
+  font-style: normal;
+  font-weight: normal;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .website {
+    padding: calc(32px - 25px) 16px 0;
+  }
+}
