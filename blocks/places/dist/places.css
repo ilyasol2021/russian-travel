@@ -1,0 +1,130 @@
+.places {
+  padding: 92px 148px 0;
+}
+
+.place {
+  display: grid;
+  grid-template-rows: repeat(2, auto) 1fr;
+  grid-template-columns: min-content 1fr;
+  gap: 26px 40px;
+  color: #fff;
+  margin-bottom: 80px;
+}
+.place:last-of-type {
+  margin: 0;
+}
+.place__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+.place__image {
+  grid-row: 2/4;
+  padding-top: calc(48px - 26px);
+  width: calc(460/1280*100vw);
+  object-fit: cover;
+}
+.place__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+.place__paragraph:first-of-type {
+  padding-top: calc(48px - 26px);
+}
+
+.website {
+  font-style: normal;
+  font-weight: normal;
+  align-self: end;
+}
+.website__url-heading {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  margin: 0 0 12px;
+}
+.website__link {
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.website__link:hover {
+  transition: opacity 0.3s;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    padding: 92px 48px 0;
+  }
+
+  .place {
+    gap: 27px 32px;
+  }
+  .place__image {
+    padding-top: calc(48px - 27px);
+    width: calc(440/1024*100vw);
+  }
+  .place__paragraph:first-of-type {
+    padding-top: calc(48px - 27px);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .places {
+    padding: 88px 24px 0;
+  }
+
+  .place {
+    gap: 25px 28px;
+    margin-bottom: 73px;
+  }
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__image {
+    padding-top: calc(48px - 25px);
+    width: calc(340/768*100vw);
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__paragraph:first-of-type {
+    padding-top: calc(48px - 25px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .places {
+    padding: 64px 0 0;
+  }
+
+  .place {
+    grid-template-rows: repeat(2, auto) 1fr;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 64px;
+  }
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .place__website {
+    padding-top: calc(32px - 25px);
+  }
+  .place__image {
+    padding-top: calc(32px - 25px);
+    width: 100vw;
+    grid-row: 3/4;
+  }
+  .place__paragraph:first-of-type {
+    padding-top: calc(32px - 25px);
+  }
+}

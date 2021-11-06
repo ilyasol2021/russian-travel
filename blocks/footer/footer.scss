@@ -13,6 +13,11 @@
     &:last-of-type {
       margin-right: auto;
     }
+    &:hover {
+      transition: opacity 0.3s;
+      opacity: .8;
+      cursor: pointer;
+    }
   }
   &__copyright {
     margin: 2px 0 0;
@@ -32,7 +37,7 @@
 
 @media screen and (max-width: 767px) {
   .footer {
-    padding: 0 0 24px 16px;
+    padding: 0 auto 24px 16px;
     flex-direction: column;
     &__link {
       font-size: 24px;
@@ -40,11 +45,13 @@
       margin: 0 0 32px;
       &:last-of-type {
         margin-bottom: 48px;
+        margin-right: 0;
       }
     }
     &__copyright {
       line-height: 16px;
       text-align: left;
+      margin: 0;
     }
   }
 }
