@@ -84,7 +84,7 @@
   margin: 0 auto 64px;
 }
 .lead__image {
-  background-image: url("../../../images/lead/pic.jpg");
+  background-image: url("./images/lead/pic.jpg");
   background-size: cover;
   width: calc(100vw - 2*148px);
   height: calc(62.5vw - 2*148px);
@@ -364,7 +364,7 @@
   padding: 92px 48px;
 }
 .cover__background {
-  background-image: url(../../../images/cover/pic.jpg);
+  background-image: url(./images/cover/pic.jpg);
   background-size: cover;
   width: calc(100vw - 2*48px);
   height: 62.5vw;
