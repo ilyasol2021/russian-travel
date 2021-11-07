@@ -22,7 +22,7 @@
 @media screen and (max-width: 767px) {
   .place__image {
     padding-top: calc(32px - 25px);
-    width: 100vw;
+    width: 100%;
     grid-row: 3/4;
   }
 }

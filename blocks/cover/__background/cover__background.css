@@ -27,6 +27,6 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    width: 100vw;
+    width: 100%;
   }
 }
