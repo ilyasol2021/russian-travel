@@ -3,11 +3,6 @@
   padding: 92px 48px;
 }
 
-.cover a {
-  text-decoration: none;
-  color: #fff;
-}
-
 @media screen and (max-width: 1279px) {
   .cover {
     padding: 92px 0;

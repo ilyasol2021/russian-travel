@@ -3,14 +3,9 @@
   -webkit-background-size: cover;
   background-size: cover;
   width: calc(100vw - 2*48px);
-  height: 62.5vw;
+  min-height: 62.5vw;
   position: relative;
-}
-
-.cover__background:hover {
-  transition: opacity 0.3s;
-  opacity: 0.8;
-  cursor: pointer;
+  z-index: 1;
 }
 
 .cover__background:after {
@@ -23,7 +18,7 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   z-index: 2;
-  }
+}
 
 @media screen and (max-width: 1279px) {
   .cover__background {

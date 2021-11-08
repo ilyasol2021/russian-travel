@@ -1,8 +1,7 @@
 .lead__image {
-  background-image: url("../../../images/lead/pic.jpg");
-  background-size: cover;
+  object-fit: cover;
+  object-position: center;
   width: calc(100vw - 2*148px);
-  height: calc(62.5vw - 2*148px);
 }
 
 @media screen and (max-width: 1279px) {
