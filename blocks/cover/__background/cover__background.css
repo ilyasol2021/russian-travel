@@ -2,8 +2,9 @@
   background-image: url(../../../images/cover/pic.jpg);
   -webkit-background-size: cover;
   background-size: cover;
-  width: calc(100vw - 2*48px);
-  min-height: 62.5vw;
+  object-position: center;
+  max-width: calc(1280px - 2*48px);
+  max-height: 740px;
   position: relative;
   z-index: 1;
 }
@@ -23,5 +24,7 @@
 @media screen and (max-width: 1279px) {
   .cover__background {
     width: 100%;
+    margin: 0 auto;
+    height: calc(640/1024*100vw);
   }
 }

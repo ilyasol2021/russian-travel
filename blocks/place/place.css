@@ -22,12 +22,15 @@
     gap: 25px 28px;
     margin-bottom: 73px;
   }
+  .place:last-of-type {
+    row-gap: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .place {
     grid-template-columns: 1fr;
     gap: 25px;
-    margin-bottom: 64px;
+    margin-bottom: 50px;
   }
 }

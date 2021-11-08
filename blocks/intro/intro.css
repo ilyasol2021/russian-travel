@@ -1,5 +1,5 @@
 .intro {
-  padding: 92px 0 0 148px;
+  padding: 92px 0 0 calc((100vw - 1280px + 148px*2)/2);
   max-width: 690px;
   color: #fff;
   font-style: normal;

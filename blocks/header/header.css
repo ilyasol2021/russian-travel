@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 28px 48px 0;
+  padding: 28px calc((100vw - 1280px + 48px*2)/2) 0;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -8,7 +8,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1280px) {
   .header {
     padding: 28px 24px 0 24px;
   }
