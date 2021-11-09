@@ -1,7 +1,7 @@
 .place__image {
   grid-row: 2/4;
   padding-top: calc(48px - 26px);
-  width: calc(460/1280*100vw);
+  max-width: 460px;
   object-fit: cover;
 }
 
