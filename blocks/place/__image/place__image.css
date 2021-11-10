@@ -8,21 +8,31 @@
 @media screen and (max-width: 1279px) {
   .place__image {
     padding-top: calc(48px - 27px);
-    width: calc(440/1024*100vw);
+    max-width: calc(440/1024*100vw);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__image {
     padding-top: calc(48px - 25px);
-    width: calc(340/768*100vw);
+    max-width: calc(340/768*100vw);
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
-    padding-top: calc(32px - 25px);
-    width: 100%;
+    padding: calc(32px - 25px) 16px 0;
+    max-width: 100%;
+    width: calc(100vw - 2*16px);
     grid-row: 3/4;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .place__image {
+    padding: calc(32px - 25px) 0 0;
+    width: 100%;
   }
 }
